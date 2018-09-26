@@ -1,0 +1,86 @@
+﻿/* Кнопка - Запустить "Прогноз бюджета" */
+	a.button7 {
+		height: 50px;
+		width: 240px;
+		font-weight: 700;
+		color: white;
+		text-decoration: none;
+		padding: .8em 1em calc(.8em + 3px);
+		border-radius: 3px;
+		background: rgb(64,199,129);
+		box-shadow: 0 -3px rgb(53,167,110) inset;
+		transition: 0.2s;
+	} 
+	a.button7:hover { background: rgb(53, 150, 95); color: #b7e587;}
+	a.button7:active {
+		background: rgb(64,199,129);
+		box-shadow: 0 3px rgb(33,147,90) inset;
+	}
+	
+	
+	
+	
+	
+/* По центру" */
+	.vcenter {
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		width:100%;
+		height:100%;
+	}
+	
+	
+	
+	.py-3 {
+		padding-top: 3px;
+		padding-bottom: 3px;
+	}
+	
+	
+	
+	
+	
+	
+	
+/* TABLE */	
+
+	table {  
+		color: #333; /* Lighten up font color */
+		font-family: Helvetica, Arial, sans-serif; /* Nicer font */
+		width: 640px; 
+		border-collapse: 
+		collapse; border-spacing: 0; 
+	}
+
+	td, th { border: 1px solid #CCC; height: 30px; } /* Make cells a bit taller */
+
+	th {  
+		background: #F3F3F3; /* Light grey background */
+		font-weight: bold; /* Make sure they're bold */
+	}
+
+	td {  
+		background: #FAFAFA; /* Lighter grey background */
+		text-align: center; /* Center our text */
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
